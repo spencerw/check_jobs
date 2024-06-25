@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       cron_interval:
-        description: 'Cron interval (e.g., "0 * * * *" for every hour)'
+        description: 'Cron interval (e.g., "*/5 * * * *" for every 5 minutes)'
         required: false
 
 jobs:
