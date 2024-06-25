@@ -22,13 +22,19 @@ found_jobs = {a.get_text(strip=True): "https://employment.ucsd.edu" + a['href'] 
 file_path = os.path.join(os.getenv('GITHUB_WORKSPACE'), 'job_listings.txt')
 if os.path.exists(file_path):
     with open(file_path, 'r') as file:
+        print('found existing job_listings.txt file')
         existing_jobs = {line.split(', Href: ')[0].replace('Text: ', '') for line in file.readlines()}
 else:
+    print(file_path + ' not found, creating new file')
     existing_jobs = set()
+
+print('Found ' + str(len(existing_jobs)) + ' existing jobs')
 
 # Find new jobs that aren't in the existing jobs
 found_job_titles = set(found_jobs.keys())
 added_jobs = found_job_titles - existing_jobs
+
+print('Found ' + str(len(added_jobs)) + ' new jobs')
 
 # Send an email if there are any new jobs
 if added_jobs:
@@ -37,7 +43,7 @@ if added_jobs:
     msg['From'] = EMAIL_ADDRESS
     msg['To'] = TO_ADDRESS
     msg['Subject'] = 'New UCSD HPC Jobs'
-    body = "<h2>New Job Listings:</h2>"
+    body = ''
     for title in added_jobs:
         job_url = found_jobs[title]
         body += f"<p><a href='{job_url}'>{title}</a></p>"
@@ -56,5 +62,6 @@ if added_jobs:
 
 # Append the new jobs to the .txt file
 with open(file_path, 'a') as file:
+    print('Writing ' + str(len(added_jobs)) + ' jobs to ' + file_path)
     for title in added_jobs:
         file.write(f"Text: {title}, Href: {found_jobs[title]}\n")
