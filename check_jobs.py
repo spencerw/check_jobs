@@ -32,7 +32,24 @@ added_jobs = found_job_titles - existing_jobs
 
 # Print 'hello' if there are new jobs
 if added_jobs:
-    print("hello")
+    # Create the email content
+    msg = MIMEMultipart()
+    msg['From'] = EMAIL_ADDRESS
+    msg['To'] = TO_ADDRESS
+    msg['Subject'] = 'New Job Listings'
+    body = "\n".join([f"Text: {title}, Href: {found_jobs[title]}" for title in new_jobs])
+    msg.attach(MIMEText(body, 'plain'))
+
+    # Connect to the SMTP server and send the email
+    try:
+        server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
+        server.starttls()
+        server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
+        server.sendmail(EMAIL_ADDRESS, TO_ADDRESS, msg.as_string())
+        server.quit()
+        print("Email sent successfully.")
+    except Exception as e:
+        print(f"Failed to send email: {e}")
 
 # Append the new jobs to the .txt file
 with open(file_path, 'a') as file:
