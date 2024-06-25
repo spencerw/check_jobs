@@ -30,14 +30,14 @@ else:
 found_job_titles = set(found_jobs.keys())
 added_jobs = found_job_titles - existing_jobs
 
-# Print 'hello' if there are new jobs
+# Send an email if there are any new jobs
 if added_jobs:
     # Create the email content
     msg = MIMEMultipart()
     msg['From'] = EMAIL_ADDRESS
     msg['To'] = TO_ADDRESS
     msg['Subject'] = 'New Job Listings'
-    body = "\n".join([f"Text: {title}, Href: {found_jobs[title]}" for title in new_jobs])
+    body = "\n".join([f"Text: {title}, Href: {found_jobs[title]}" for title in added_jobs])
     msg.attach(MIMEText(body, 'plain'))
 
     # Connect to the SMTP server and send the email
