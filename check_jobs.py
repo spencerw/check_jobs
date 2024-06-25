@@ -16,10 +16,10 @@ url = "https://employment.ucsd.edu/jobs?page_size=100&page_number=1&keyword=hpc&
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 item_titles = soup.find_all('a', class_='item-title')
-found_jobs = {a.get_text(strip=True): a['href'] for a in item_titles}
+found_jobs = {a.get_text(strip=True): "https://employment.ucsd.edu" + a['href'] for a in item_titles}
 
 # Check if the .txt file exists
-file_path = 'job_listings.txt'
+file_path = os.path.join(os.getenv('GITHUB_WORKSPACE'), 'job_listings.txt')
 if os.path.exists(file_path):
     with open(file_path, 'r') as file:
         existing_jobs = {line.split(', Href: ')[0].replace('Text: ', '') for line in file.readlines()}
@@ -36,9 +36,12 @@ if added_jobs:
     msg = MIMEMultipart()
     msg['From'] = EMAIL_ADDRESS
     msg['To'] = TO_ADDRESS
-    msg['Subject'] = 'New Job Listings'
-    body = "\n".join([f"Text: {title}, Href: {found_jobs[title]}" for title in added_jobs])
-    msg.attach(MIMEText(body, 'plain'))
+    msg['Subject'] = 'New UCSD HPC Jobs'
+    body = "<h2>New Job Listings:</h2>"
+    for title in added_jobs:
+        job_url = found_jobs[title]
+        body += f"<p><a href='{job_url}'>{title}</a></p>"
+    msg.attach(MIMEText(body, 'html'))
 
     # Connect to the SMTP server and send the email
     try:
