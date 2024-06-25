@@ -1,9 +1,11 @@
 name: Check UCSD HPC Jobs
 
 on:
-  schedule:
-    - cron: '0 * * * *'  # Runs every hour at the beginning of the hour
   workflow_dispatch:
+    inputs:
+      cron_interval:
+        description: 'Cron interval (e.g., "0 * * * *" for every hour)'
+        required: false
 
 jobs:
   check_jobs:
