@@ -19,7 +19,7 @@ item_titles = soup.find_all('a', class_='item-title')
 found_jobs = {a.get_text(strip=True): "https://employment.ucsd.edu" + a['href'] for a in item_titles}
 
 # Check if the .txt file exists
-file_path = os.path.join(os.getenv('GITHUB_WORKSPACE'), 'job_listings.txt')
+file_path = 'job_listings.txt'
 if os.path.exists(file_path):
     with open(file_path, 'r') as file:
         print('found existing job_listings.txt file')

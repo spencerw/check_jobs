@@ -1,11 +1,9 @@
 name: Check UCSD HPC Jobs
 
 on:
+  schedule:
+    - cron: '*/5 * * * *'
   workflow_dispatch:
-    inputs:
-      cron_interval:
-        description: 'Cron interval (e.g., "*/5 * * * *" for every 5 minutes)'
-        required: false
 
 jobs:
   check_jobs:
@@ -31,3 +29,16 @@ jobs:
         EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
         TO_ADDRESS: ${{ secrets.TO_ADDRESS }}
       run: python check_jobs.py
+
+    - name: commit files
+      run: |
+        git config --local user.email "scw7@uw.com"
+        git config --local user.name "spencerw"
+        git add -A
+        git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
+        
+    - name: push changes
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main 
