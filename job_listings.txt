@@ -3,3 +3,4 @@ Text: Cmptl and Data Sci Rsch Spec 3 - 128663, Href: https://employment.ucsd.edu
 Text: PCF Lead System Administrator - 129856, Href: https://employment.ucsd.edu/pcf-lead-system-administrator-129856/job/28190381
 Text: Machine Learning Engineer - Hybrid - 129903, Href: https://employment.ucsd.edu/machine-learning-engineer-hybrid-129903/job/28146524
 Text: Community Project Manager - 130798, Href: https://employment.ucsd.edu/community-project-manager-130798/job/28245060
+Text: Cmptl and Data Sci Rsch Spec 4 - 130849, Href: https://employment.ucsd.edu/cmptl-and-data-sci-rsch-spec-4-130849/job/28252819
