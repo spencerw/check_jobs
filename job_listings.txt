@@ -6,3 +6,4 @@ Text: Community Project Manager - 130798, Href: https://employment.ucsd.edu/comm
 Text: Cmptl and Data Sci Rsch Spec 4 - 130849, Href: https://employment.ucsd.edu/cmptl-and-data-sci-rsch-spec-4-130849/job/28252819
 Text: HPC Systems Integration Engineer 4 - 130890, Href: https://employment.ucsd.edu/hpc-systems-integration-engineer-4-130890/job/28257540
 Text: Cmptl and Data Sci Rsch Spec 3 - 131100, Href: https://employment.ucsd.edu/cmptl-and-data-sci-rsch-spec-3-131100/job/28325486
+Text: Oceanography Data Science Research Specialist - 131291, Href: https://employment.ucsd.edu/oceanography-data-science-research-specialist-131291/job/28354543
