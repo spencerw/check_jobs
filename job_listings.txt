@@ -8,3 +8,4 @@ Text: HPC Systems Integration Engineer 4 - 130890, Href: https://employment.ucsd
 Text: Cmptl and Data Sci Rsch Spec 3 - 131100, Href: https://employment.ucsd.edu/cmptl-and-data-sci-rsch-spec-3-131100/job/28325486
 Text: Oceanography Data Science Research Specialist - 131291, Href: https://employment.ucsd.edu/oceanography-data-science-research-specialist-131291/job/28354543
 Text: CMPTL AND DATA SCI RSCH SPEC 5 - 131413, Href: https://employment.ucsd.edu/cmptl-and-data-sci-rsch-spec-5-131413/job/28371164
+Text: Executive Assistant, SDSC Director's Office - 131649, Href: https://employment.ucsd.edu/executive-assistant-sdsc-director-s-office-131649/job/28412566
