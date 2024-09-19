@@ -14,3 +14,4 @@ Text: Financial Supervisor - 132122, Href: https://employment.ucsd.edu/financial
 Text: Cmptl and Data Sci Rsch Spec 4 - 132202, Href: https://employment.ucsd.edu/cmptl-and-data-sci-rsch-spec-4-132202/job/28494149
 Text: Lead, Program Management & Outreach - 132208, Href: https://employment.ucsd.edu/lead-program-management-and-outreach-132208/job/28494150
 Text: Systems Integration Engineer 2 - 132223, Href: https://employment.ucsd.edu/systems-integration-engineer-2-132223/job/28494950
+Text: Bioinformatics and Data Science Resource - Hybrid - 132297, Href: https://employment.ucsd.edu/bioinformatics-and-data-science-resource-hybrid-132297/job/28507851
