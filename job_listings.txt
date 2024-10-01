@@ -15,3 +15,5 @@ Text: Cmptl and Data Sci Rsch Spec 4 - 132202, Href: https://employment.ucsd.edu
 Text: Lead, Program Management & Outreach - 132208, Href: https://employment.ucsd.edu/lead-program-management-and-outreach-132208/job/28494150
 Text: Systems Integration Engineer 2 - 132223, Href: https://employment.ucsd.edu/systems-integration-engineer-2-132223/job/28494950
 Text: Bioinformatics and Data Science Resource - Hybrid - 132297, Href: https://employment.ucsd.edu/bioinformatics-and-data-science-resource-hybrid-132297/job/28507851
+Text: Numerical Weather Prediction Scientist - 132526, Href: https://employment.ucsd.edu/numerical-weather-prediction-scientist-132526/job/28537768
+Text: Numerical Weather Prediction Scientist - 132543, Href: https://employment.ucsd.edu/numerical-weather-prediction-scientist-132543/job/28537901
