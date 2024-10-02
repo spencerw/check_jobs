@@ -17,3 +17,4 @@ Text: Systems Integration Engineer 2 - 132223, Href: https://employment.ucsd.edu
 Text: Bioinformatics and Data Science Resource - Hybrid - 132297, Href: https://employment.ucsd.edu/bioinformatics-and-data-science-resource-hybrid-132297/job/28507851
 Text: Numerical Weather Prediction Scientist - 132526, Href: https://employment.ucsd.edu/numerical-weather-prediction-scientist-132526/job/28537768
 Text: Numerical Weather Prediction Scientist - 132543, Href: https://employment.ucsd.edu/numerical-weather-prediction-scientist-132543/job/28537901
+Text: Locksmith and Electronic Security Technician - TP132577, Href: https://employment.ucsd.edu/locksmith-and-electronic-security-technician-tp132577/job/28541153
