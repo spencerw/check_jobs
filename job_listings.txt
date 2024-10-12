@@ -20,3 +20,4 @@ Text: Numerical Weather Prediction Scientist - 132543, Href: https://employment.
 Text: Locksmith and Electronic Security Technician - TP132577, Href: https://employment.ucsd.edu/locksmith-and-electronic-security-technician-tp132577/job/28541153
 Text: Numerical Weather Prediction Scientist - 132555, Href: https://employment.ucsd.edu/numerical-weather-prediction-scientist-132555/job/28543930
 Text: IT ARCHITECT 4 - 132615, Href: https://employment.ucsd.edu/it-architect-4-132615/job/28547531
+Text: Systems & Cloud Administrator - 132736, Href: https://employment.ucsd.edu/systems-and-cloud-administrator-132736/job/28570822
