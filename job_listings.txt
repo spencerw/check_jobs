@@ -23,3 +23,4 @@ Text: IT ARCHITECT 4 - 132615, Href: https://employment.ucsd.edu/it-architect-4-
 Text: Systems & Cloud Administrator - 132736, Href: https://employment.ucsd.edu/systems-and-cloud-administrator-132736/job/28570822
 Text: HPC Systems  Engineer - 132811, Href: https://employment.ucsd.edu/hpc-systems-engineer-132811/job/28606683
 Text: Cmptl and Data Sci Rsch Spec 3/4 - 132162, Href: https://employment.ucsd.edu/cmptl-and-data-sci-rsch-spec-3-4-132162/job/28668619
+Text: Events Specialist 2 - 133288, Href: https://employment.ucsd.edu/events-specialist-2-133288/job/28676301
