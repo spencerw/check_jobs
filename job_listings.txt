@@ -25,3 +25,4 @@ Text: HPC Systems  Engineer - 132811, Href: https://employment.ucsd.edu/hpc-syst
 Text: Cmptl and Data Sci Rsch Spec 3/4 - 132162, Href: https://employment.ucsd.edu/cmptl-and-data-sci-rsch-spec-3-4-132162/job/28668619
 Text: Events Specialist 2 - 133288, Href: https://employment.ucsd.edu/events-specialist-2-133288/job/28676301
 Text: Information Systems Analyst 2 - 133860, Href: https://employment.ucsd.edu/information-systems-analyst-2-133860/job/28767658
+Text: Senior Research Manager - 134070, Href: https://employment.ucsd.edu/senior-research-manager-134070/job/28806691
