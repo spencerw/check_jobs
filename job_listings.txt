@@ -30,3 +30,4 @@ Text: Cmptl and Data Sci Rsch Spec 4 - 134151, Href: https://employment.ucsd.edu
 Text: Locksmith/Electronic Security Technician - 134284, Href: https://employment.ucsd.edu/locksmith-electronic-security-technician-134284/job/28834649
 Text: Cmptl and Data Science Research Spec 4 - 134601, Href: https://employment.ucsd.edu/cmptl-and-data-science-research-spec-4-134601/job/28931442
 Text: Atmospheric Data Scientist - 134800, Href: https://employment.ucsd.edu/atmospheric-data-scientist-134800/job/28931948
+Text: Cloud & DevOps Engineer - 134736, Href: https://employment.ucsd.edu/cloud-and-devops-engineer-134736/job/28953179
