@@ -32,3 +32,4 @@ Text: Cmptl and Data Science Research Spec 4 - 134601, Href: https://employment.
 Text: Atmospheric Data Scientist - 134800, Href: https://employment.ucsd.edu/atmospheric-data-scientist-134800/job/28931948
 Text: Cloud & DevOps Engineer - 134736, Href: https://employment.ucsd.edu/cloud-and-devops-engineer-134736/job/28953179
 Text: Research to Operations Hydrologist - 135037, Href: https://employment.ucsd.edu/research-to-operations-hydrologist-135037/job/28978391
+Text: Computational Data Science Research Specialist - 135057, Href: https://employment.ucsd.edu/computational-data-science-research-specialist-135057/job/29005509
