@@ -33,3 +33,4 @@ Text: Atmospheric Data Scientist - 134800, Href: https://employment.ucsd.edu/atm
 Text: Cloud & DevOps Engineer - 134736, Href: https://employment.ucsd.edu/cloud-and-devops-engineer-134736/job/28953179
 Text: Research to Operations Hydrologist - 135037, Href: https://employment.ucsd.edu/research-to-operations-hydrologist-135037/job/28978391
 Text: Computational Data Science Research Specialist - 135057, Href: https://employment.ucsd.edu/computational-data-science-research-specialist-135057/job/29005509
+Text: Research Data Analyst 3 - 135287, Href: https://employment.ucsd.edu/research-data-analyst-3-135287/job/29080276
