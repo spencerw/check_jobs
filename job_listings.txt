@@ -36,3 +36,4 @@ Text: Computational Data Science Research Specialist - 135057, Href: https://emp
 Text: Research Data Analyst 3 - 135287, Href: https://employment.ucsd.edu/research-data-analyst-3-135287/job/29080276
 Text: Computational and Data Science Research Specialist - 135343, Href: https://employment.ucsd.edu/computational-and-data-science-research-specialist-135343/job/29089242
 Text: Bioinformatics Programmer - 135391, Href: https://employment.ucsd.edu/bioinformatics-programmer-135391/job/29090651
+Text: Atmospheric Data Scientist - 135288, Href: https://employment.ucsd.edu/atmospheric-data-scientist-135288/job/29097159
