@@ -40,3 +40,4 @@ Text: Atmospheric Data Scientist - 135288, Href: https://employment.ucsd.edu/atm
 Text: Information Systems Analyst 3 - 135439, Href: https://employment.ucsd.edu/information-systems-analyst-3-135439/job/29122546
 Text: Hydrologic Data Analyst and Modeler - 135461, Href: https://employment.ucsd.edu/hydrologic-data-analyst-and-modeler-135461/job/29131708
 Text: Information Systems Analyst 2 (Night Shift) - 133860, Href: https://employment.ucsd.edu/information-systems-analyst-2-night-shift-133860/job/29160631
+Text: Communications & Network Tech Analyst 3 - 135702, Href: https://employment.ucsd.edu/communications-and-network-tech-analyst-3-135702/job/29169159
