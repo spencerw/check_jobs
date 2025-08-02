@@ -43,3 +43,4 @@ Text: Information Systems Analyst 2 (Night Shift) - 133860, Href: https://employ
 Text: Communications & Network Tech Analyst 3 - 135702, Href: https://employment.ucsd.edu/communications-and-network-tech-analyst-3-135702/job/29169159
 Text: Bioinformatics Programmer 1 - 136064, Href: https://employment.ucsd.edu/bioinformatics-programmer-1-136064/job/29220941
 Text: Senior Bio Machine Learning Scientist - 136085, Href: https://employment.ucsd.edu/senior-bio-machine-learning-scientist-136085/job/29228871
+Text: IT SCRTY ANL 5 - 136102, Href: https://employment.ucsd.edu/it-scrty-anl-5-136102/job/29241141
