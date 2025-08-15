@@ -44,3 +44,4 @@ Text: Communications & Network Tech Analyst 3 - 135702, Href: https://employment
 Text: Bioinformatics Programmer 1 - 136064, Href: https://employment.ucsd.edu/bioinformatics-programmer-1-136064/job/29220941
 Text: Senior Bio Machine Learning Scientist - 136085, Href: https://employment.ucsd.edu/senior-bio-machine-learning-scientist-136085/job/29228871
 Text: IT SCRTY ANL 5 - 136102, Href: https://employment.ucsd.edu/it-scrty-anl-5-136102/job/29241141
+Text: Data Systems Analyst 3 - 136354, Href: https://employment.ucsd.edu/data-systems-analyst-3-136354/job/29261761
